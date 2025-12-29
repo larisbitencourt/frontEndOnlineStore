@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
 import * as api from "../services/api";
-import './Detalhes.css'
 
 function Detalhes({ carrinho, setCarrinho, handleAddToCart }) {
   const { id } = useParams();

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import PropTypes from "prop-types";
-import './Checkout.css'
 
 export default function Checkout({ cartItems, clearCart }) {
   const history = useHistory();
